@@ -1,0 +1,9 @@
+{
+  "urls": [
+    "https://www.google.com/",
+    
+  ],
+  "standard": "WCAG2AA",
+  "reporter": "cli",
+  "level": "error"
+}
