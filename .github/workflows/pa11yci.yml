@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Run Pa11y
+      - name: Install Pa11y
         run: npm install pa11y-ci
+      - name: run Pa11y
         run: npm pa11y-ci
